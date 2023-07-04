@@ -2213,15 +2213,7 @@ namespace ProyectoPuntoVenta
             else if (e.KeyChar == (char)Keys.T)
             {
                 this.Tabprimario.SelectedTab = tabPage2;
-                ////TabControl tb = new TabControl();
-                //tb2.SelectedTab = tabPage2;
-                //tb1.SelectedIndex = 1;
-                //tb2.SelectedIndex = 0;
-                //tb3.SelectedIndex = 2;
-                ////tb2.Enabled = false;
-                ////this.tabPage1.Select();
-                ////this.tabPage1.Focus();
-                ////tb2.SelectedIndex = 1;
+              
 
                 e.Handled = true;
             }
